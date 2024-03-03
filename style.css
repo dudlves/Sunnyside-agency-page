@@ -1,0 +1,32 @@
+*,
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #3ebfff;
+}
+
+#header {
+  align-items: center;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#header ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+}
+
+#header li{
+  padding-right: 20px;
+
+}

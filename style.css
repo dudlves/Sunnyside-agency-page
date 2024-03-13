@@ -7,10 +7,13 @@
 
 header {
   background-color: #3ebfff;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #header {
   align-items: center;
+  padding-top: 15px;
   padding-right: 50px;
   padding-left: 50px;
   margin-right: auto;
@@ -19,14 +22,31 @@ header {
   justify-content: space-between;
 }
 
-#header ul{
+#header ul {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-  padding-left: 50px;
+  padding-left: 700px;
 }
 
-#header li{
-  padding-right: 20px;
+#header li {
+  padding-right: 35px;
+  font-size: 14px;
+  color: white;
+}
 
+#header > button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: white;
+  border: 0px;
+}
+
+header > img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -50,3 +50,87 @@ header > img {
   margin-left: auto;
   margin-right: auto;
 }
+
+main > section {
+  display: flex;
+}
+
+.information {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 120px;
+}
+
+.information > h2 {
+  /* font-size: 40px; */
+  font-weight: 600;
+}
+
+main > section > img {
+  width: 50%;
+}
+
+#people-information > h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px ;
+  margin-bottom: 60px;
+  font-size: 25px;
+}
+
+#people{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto ;
+}
+
+.person{
+ 
+  width: 300px;
+  margin-right: 20px;
+}
+
+.person > img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto ;
+  border-radius: 88px;
+  height: 50px;
+  width: 50px;
+  /* margin-bottom: 55px; */
+}
+
+.person > p{
+  margin: 60px 0px;
+  text-align: center;
+  line-height: 25px;
+  margin-right: 10px;
+
+}
+
+.person > h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto ;
+  margin-bottom: 10px;
+}
+
+.person > h5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto ;
+  margin-bottom: 70px;
+}
+
+#gallery-food{
+  display: flex;
+  height: 393px;
+  margin: auto;
+}

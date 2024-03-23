@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
+
 *,
 :root {
   margin: 0;
@@ -36,6 +40,7 @@ header {
 }
 
 #header > button {
+  font-family: "Fraunces", serif;
   padding: 10px 20px;
   border-radius: 20px;
   background-color: white;
@@ -65,7 +70,8 @@ main > section {
 }
 
 .information > h2 {
-  font-weight: 600;
+  font-weight: 900;
+  font-family: "Fraunces", serif;
 }
 
 section > img {
@@ -73,7 +79,43 @@ section > img {
   height: 80vh;
 }
 
+#information-img {
+  /* background-color: #2e7766; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#information-img > div {
+  position: relative;
+}
+
+#information-img > div > img {
+  width: 106.5vh;
+  height: 80vh;
+}
+
+#information-img > div > span {
+  position: absolute;
+  left: 45%;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  top: 65%;
+}
+
+#information-img > div > p {
+  position: absolute;
+  padding: 0px 130px;
+  /* left: 15%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 70%;
+}
+
 #people-information > h3 {
+  font-family: "Fraunces", serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,6 +154,7 @@ section > img {
 }
 
 .person > h4 {
+  font-family: "Fraunces", serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -129,11 +172,11 @@ section > img {
 
 #gallery-food {
   display: flex;
-  height: 393px;
-  margin: auto;
+  justify-content: center;
+  height: 392px;
 }
 
-footer{
+footer {
   background-color: #90d4c5;
   display: flex;
   flex-direction: column;
@@ -142,13 +185,15 @@ footer{
   margin-right: auto;
 }
 
-footer > h6{
+footer > h6 {
+  font-family: "Barlow", sans-serif;
+
   margin-top: 40px;
   color: #2e7766;
   font-size: 25px;
 }
 
-footer > ul{
+footer > ul {
   margin-top: 30px;
   list-style-type: none;
   display: flex;
@@ -156,7 +201,7 @@ footer > ul{
   align-items: center;
 }
 
-footer > ul > li{
+footer > ul > li {
   padding-right: 30px;
   color: #2e7766;
 }

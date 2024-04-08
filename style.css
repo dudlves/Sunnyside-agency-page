@@ -13,51 +13,51 @@ header {
   background-color: #3ebfff;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  width: 100vw;
 }
 
-#header {
+#header-links {
+  display: flex;
+  gap: 24px;
   align-items: center;
-  padding-top: 15px;
-  padding-right: 50px;
-  padding-left: 50px;
-  margin-right: auto;
-  margin-left: auto;
-  display: flex;
-  justify-content: space-between;
 }
 
-#header ul {
+#header-links > ul {
+  display: flex;
+  gap: 30px;
   list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  padding-left: 700px;
+  & > li {
+    color: white;
+    font-size: 14px;
+  }
 }
 
-#header li {
-  padding-right: 35px;
-  font-size: 14px;
-  color: white;
-}
-
-#header > button {
+#header-links > button {
   font-family: "Fraunces", serif;
   padding: 10px 20px;
   border-radius: 20px;
   background-color: white;
   border: 0px;
+  font-weight: 700;
+  font-size: 10px;
 }
 
-header > img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 90vh;
-  margin-left: auto;
-  margin-right: auto;
+#banner {
+  width: 100vw;
+  background-color: #3ebfff;
+  & > img {
+    height: 80%;
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 main > section {
   display: flex;
+  width: 100vw;
 }
 
 .information {
@@ -65,22 +65,28 @@ main > section {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  padding: 120px;
   width: 50%;
 }
 
-.information > h2 {
+.content{
+  width: 360px;
+}
+
+.content > h2 {
   font-weight: 900;
   font-family: "Fraunces", serif;
+  font-size: 32px;
 }
 
-section > img {
+.information > p {
+  font-size: 17px;
+}
+
+section > img{
   width: 50%;
-  height: 80vh;
 }
 
 #information-img {
-  /* background-color: #2e7766; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,11 +94,12 @@ section > img {
 
 #information-img > div {
   position: relative;
+  width: 100vw;
 }
 
 #information-img > div > img {
-  width: 106.5vh;
   height: 80vh;
+  width: 100%;
 }
 
 #information-img > div > span {
@@ -100,14 +107,12 @@ section > img {
   left: 45%;
   display: flex;
   align-items: center;
-  /* justify-content: center; */
   top: 65%;
 }
 
 #information-img > div > p {
   position: absolute;
   padding: 0px 130px;
-  /* left: 15%; */
   display: flex;
   align-items: center;
   justify-content: center;

@@ -11,12 +11,9 @@
 
 header {
   background-color: #3ebfff;
-  /* margin-left: auto;
-  margin-right: auto; */
   display: flex;
   justify-content: space-between;
   padding: 24px;
-  /* width: 100vw; */
 }
 
 #header-links {
@@ -46,7 +43,6 @@ header {
 }
 
 #banner {
-  /* width: 100vw; */
   background-color: #3ebfff;
   & > img {
     height: 80%;
@@ -57,7 +53,6 @@ header {
 
 main > section {
   display: flex;
-  /* width: 100vw; */
 }
 
 .information {
@@ -68,7 +63,7 @@ main > section {
   width: 50%;
 }
 
-.content{
+.content {
   width: 360px;
 }
 
@@ -78,11 +73,23 @@ main > section {
   font-size: 32px;
 }
 
-.information > p {
-  font-size: 17px;
+.content p {
+  font-size: 14px;
+  padding: 20px 0px;
+  line-height: 18pt;
+  color: #59585b;
+  /* color: gray; */
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
 }
 
-section > img{
+.content > span {
+  font-family: "Fraunces", serif;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+section > img {
   width: 50%;
 }
 
@@ -103,20 +110,33 @@ section > img{
 }
 
 #information-img > div > span {
+  font-weight: 900;
+  font-family: "Fraunces", serif;
+  font-size: 23px;
   position: absolute;
-  left: 45%;
+  left: 35%;
   display: flex;
   align-items: center;
   top: 65%;
+  bottom: 50%;
 }
 
 #information-img > div > p {
   position: absolute;
-  padding: 0px 130px;
+  padding: 0px 180px;
   display: flex;
   align-items: center;
   justify-content: center;
   top: 70%;
+  text-align: center;
+}
+
+#cherry-img{
+  color: #205148;
+}
+
+#orange-img{
+  color: #195b7a;
 }
 
 #people-information > h3 {

@@ -78,7 +78,6 @@ main > section {
   padding: 20px 0px;
   line-height: 18pt;
   color: #b4b4b4;
-  /* color: gray; */
   font-family: "Barlow", sans-serif;
   font-weight: 600;
 }
@@ -87,7 +86,19 @@ main > section {
   font-family: "Fraunces", serif;
   font-size: 13px;
   font-weight: 700;
+  position: relative;
+  /* border-bottom: 20px solid #fbf2b6; */
 }
+
+.content > span::before{
+    content: '';
+    position: absolute; 
+    top: 14px;
+    width: 100%; 
+    height: 6px;
+    background-color: #fbf2b6;
+
+  }
 
 section > img {
   width: 50%;
@@ -202,8 +213,9 @@ section > img {
   display: flex;
   justify-content: center;
   height: 392px;
-  margin-left: auto;
-  margin-right: auto;
+    & > img{
+    width: 80%;
+    }
 }
 
 footer {
